@@ -1,0 +1,41 @@
+section{
+    border: 1px solid black;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 30px;
+    height: 400px;
+    overflow: hidden;
+    color: rgb(36, 33, 33);
+}
+section .item{
+    width: 1em;
+    height: 1em;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+}
+section .item-red{
+    background-color: red;
+}
+section .item-blue {
+	background-color: #710ff1;
+}
+section .item-green {
+	background-color: #2ecc71;
+}
+section .header-bar{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    height: 40px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.box-black{
+    background-color: ;
+}
+#challange1 .container{
+
+}

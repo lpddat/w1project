@@ -1,0 +1,35 @@
+html{
+    height:100% ;
+}
+body{
+    text-align: left;
+}
+.container1{
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.container2{
+    border: 1px solid black;
+    background-color: rgb(206, 231, 245);
+    margin: 120px;
+    padding-left: 100px;
+    padding-top: 80px;
+    
+}
+.code{
+    display: inline-block;
+    background-color: cyan;
+}
+ul li {
+    text-align: left;
+    Margin: 0;
+    Padding:0;
+}
+ol li {
+    text-align: left;
+    Margin: 0;
+    Padding:0;
+}.listen{
+    color: green;
+}
