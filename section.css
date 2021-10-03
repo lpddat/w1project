@@ -1,0 +1,307 @@
+
+/* Card */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; 
+  height: card-height;
+  word-wrap: break-word;
+  background-color: card-bg;
+  background-clip: border-box;
+  border:card-border-width solid card-border-color;
+  
+}
+ 
+.card-body {
+  flex-grow: 1;
+
+  flex: 1 1 auto;
+  
+  min-height: 1px;
+  padding: card-spacer-x;
+  color: card-color;
+}
+
+.card-title {
+  margin-bottom: card-spacer-y;
+}
+
+.card-subtitle {
+  margin-top: -card-spacer-y / 2;
+  margin-bottom: 0;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-link {
+  
+    text-decoration: none;
+  }
+
+.card-link {
+    margin-left: card-spacer-x;
+  }
+
+
+
+
+.card-header {
+  padding: card-spacer-y card-spacer-x;
+  margin-bottom: 0;
+  color: card-cap-color;
+  background-color: card-cap-bg;
+  border-bottom: card-border-width solid card-border-color;
+}
+  
+
+.list-group {
+    list-style-type:first-child; 
+    border-top: 0;
+    
+  
+}
+
+.card-footer {
+  padding: card-spacer-y card-spacer-x;
+  background-color: card-cap-bg;
+  border-top: card-border-width solid card-border-color;
+
+}
+.card-header-tabs {
+  margin-right: -card-spacer-x / 2;
+  margin-bottom: -card-spacer-y;
+  margin-left: -card-spacer-x / 2;
+  border-bottom: 0;
+}
+
+.card-header-pills {
+  margin-right: -card-spacer-x / 2;
+  margin-left: -card-spacer-x / 2;
+}
+
+/* Cardimage */
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: card-img-overlay-padding;
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  flex-shrink: 0; 
+  width: 100%;
+  align-self: stretch;
+}
+
+
+
+/* Carddeck */
+
+.card-deck {
+  
+    margin-bottom: card-deck-margin;
+  
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -card-deck-margin;
+    margin-left: -card-deck-margin;
+}
+    .card {
+      
+      flex: 1 0 0%;
+      margin-right: card-deck-margin;
+      margin-bottom: 0;
+      margin-left: card-deck-margin;
+    }
+  
+
+
+
+
+.card-group {
+    display: properly;
+     margin-bottom: card-group-margin;
+  
+
+    display: flex;
+    flex-flow: row wrap;
+} 
+  .card {
+      flex: 1 0 0%;
+      margin-bottom: 0;
+  }
+    .card {
+        margin-left: 0;
+        border-left: 0;
+      }
+  .card-img-top,
+  .card-header {
+      border-top-right-radius: 0;
+          }
+  .card-img-bottom,
+  .card-footer {
+      border-bottom-right-radius: 0;
+          }
+        
+/* Columns */
+
+
+.card-columns {
+  
+    margin-bottom: card-columns-margin;
+ 
+    column-count: card-columns-count;
+    column-gap: card-columns-gap;
+    orphans: 1;
+    widows: 1;
+}
+    .card {
+      display: inline-block;
+      width: 100%;     
+  }
+
+
+
+
+.accordion {
+   
+    overflow: hidden;
+
+    
+      border-bottom: 0;
+      
+
+      border-radius:0;
+      margin-bottom: -card-border-width;
+    }
+  
+/* ----------------- */
+.main-salad{
+  text-align: front;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.title-bar-fruit, .title-bar-soup {
+  color: white;
+}
+
+.title-bar-salad {
+  color: black;
+}
+
+section a {
+  text-decoration: none;
+}
+
+.bao-jumbotron{
+  padding: 0 15%;
+  max-height: 350px !important;
+  min-height: 150px !important;
+  height: fit-content;
+}
+
+.salad-jumbotron, .soup-jumbotron, .fruit-jumbotron {
+  cursor: pointer;
+  display: block;
+}
+
+.salad-jumbotron:link {
+  text-decoration: none;
+}
+
+.salad-jumbotron:hover {
+  text-decoration: none;
+}
+
+.salad-jumbotron:visited {
+  text-decoration: none;
+}
+
+.soup-jumbotron:hover {
+  text-decoration: none;
+}
+
+.soup-jumbotron:link {
+  text-decoration: none;
+}
+
+.soup-jumbotro:visited {
+  text-decoration: none;
+}
+
+.fruit-jumbotron:visited {
+  text-decoration: none;
+}
+
+.fruit-jumbotron:link {
+  text-decoration: none;
+}
+
+.fruit-jumbotron:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.salad-jumbotron {
+  background-image: url(images/greens3.png);
+}
+
+.section-salad {
+  background-image: url(images/picture5.png);
+}
+
+.soup-jumbotron {
+  background-image: url(images/soupbackground.jpg);
+}
+
+.section-soup {
+  background-image: url(images/protein.png);
+}
+
+.fruit-jumbotron {
+  background-image: url(images/fruitsaladmint_header.jpg);
+}
+
+.section-fruit {
+  background-image: url(images/fruitbackground.jpg);
+}
+
+
+.anhdt-card {
+  box-shadow: 0em 0em 0.5em 0.1em rgba(56, 56, 56, 0.2);
+  padding: 3px;
+}
+.salad-text{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15%;
+}
+.salad{
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+
+}
+.sald-left .salad-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
+
