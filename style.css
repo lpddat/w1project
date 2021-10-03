@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     border: solid;
+    width: 100%;
 }
 #navb .container{
     width: 100%;
@@ -31,6 +32,7 @@
     position: relative;
 }
 #food .foodlist{
+    width: 100%;
     display: flex;
     flex-direction: column;
     height: 900px;
@@ -67,7 +69,8 @@
 #food .title{
     font-weight: bold;
     font-size: 40px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -244,8 +247,15 @@ body {
       position: relative;
       left: 40px;
   }
-  
-  
+  /* members */
+  #contributors{
+      border: solid;
+      margin-top: 50px;
+  }
+  #contributors .row{
+      display: flex;
+      justify-content: space-around;
+  }
   
   
   
