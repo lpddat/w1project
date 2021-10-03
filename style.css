@@ -1,0 +1,26 @@
+#navb{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    border: solid;
+}
+#navb .container{
+    width: 100%;
+    display: flex;
+}
+#navb .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#navb .col{
+    text-align: center;
+}
+#navb a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+#navb a:hover{
+    color: blue;
+}
