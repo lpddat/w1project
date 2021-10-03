@@ -192,7 +192,7 @@
     }
   
 /* ----------------- */
-.main-north{
+.main-salad{
   text-align: front;
   display: flex;
   flex-direction: column;
@@ -200,11 +200,11 @@
   
 }
 
-.title-bar-south, .title-bar-middle {
+.title-bar-fruit, .title-bar-soup {
   color: white;
 }
 
-.title-bar-north {
+.title-bar-salad {
   color: black;
 }
 
@@ -219,44 +219,44 @@ section a {
   height: fit-content;
 }
 
-.north-jumbotron, .middle-jumbotron, .south-jumbotron {
+.salad-jumbotron, .soup-jumbotron, .fruit-jumbotron {
   cursor: pointer;
   display: block;
 }
 
-.north-jumbotron:link {
+.salad-jumbotron:link {
   text-decoration: none;
 }
 
-.north-jumbotron:hover {
+.salad-jumbotron:hover {
   text-decoration: none;
 }
 
-.north-jumbotron:visited {
+.salad-jumbotron:visited {
   text-decoration: none;
 }
 
-.middle-jumbotron:hover {
+.soup-jumbotron:hover {
   text-decoration: none;
 }
 
-.middle-jumbotron:link {
+.soup-jumbotron:link {
   text-decoration: none;
 }
 
-.middle-jumbotro:visited {
+.soup-jumbotro:visited {
   text-decoration: none;
 }
 
-.south-jumbotron:visited {
+.fruit-jumbotron:visited {
   text-decoration: none;
 }
 
-.south-jumbotron:link {
+.fruit-jumbotron:link {
   text-decoration: none;
 }
 
-.south-jumbotron:hover {
+.fruit-jumbotron:hover {
   text-decoration: none;
 }
 
@@ -264,47 +264,47 @@ a {
   text-decoration: none;
 }
 
-.north-jumbotron {
+.salad-jumbotron {
   background-image: url(img/greens3.png);
 }
 
-.section-north {
+.section-salad {
   background-image: url(img/picture5.png);
 }
 
-.middle-jumbotron {
+.soup-jumbotron {
   background-image: url(img/soupbackground.jpg);
 }
 
-.section-middle {
+.section-soup {
   background-image: url(img/protein.png);
 }
 
-.south-jumbotron {
+.fruit-jumbotron {
   background-image: url(img/fruitsaladmint_header.jpg);
 }
 
-.section-south {
+.section-fruit {
   background-image: url(img/fruitbackground.jpg);
 }
 
 
-.bao-card {
+.anhdt-card {
   box-shadow: 0em 0em 0.5em 0.1em rgba(56, 56, 56, 0.2);
   padding: 3px;
 }
-.north-text{
+.salad-text{
   display: flex;
   justify-content: space-around;
   padding: 0 15%;
 }
-.north{
+.salad{
   display: flex;
   flex-direction: column !important;
   justify-content: flex-start !important;
 
 }
-.north-left .north-right{
+.sald-left .salad-right{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
