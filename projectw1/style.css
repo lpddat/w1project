@@ -171,7 +171,7 @@
     orphans: 1;
     widows: 1;
 }
-    /* .card { */
+    .card {
       display: inline-block;
       width: 100%;     
   }
@@ -265,33 +265,50 @@ a {
 }
 
 .north-jumbotron {
-  background-image: url(img/north_background1.jpg);
+  background-image: url(img/greens3.png);
 }
 
 .section-north {
-  background-image: url(img/north_background2.jpg);
+  background-image: url(img/picture5.png);
 }
 
 .middle-jumbotron {
-  background-image: url(img/middle-background-1.jpg);
+  background-image: url(img/soupbackground.jpg);
 }
 
 .section-middle {
-  background-image: url(img/middle-background-2.jpg);
+  background-image: url(img/protein.png);
 }
 
 .south-jumbotron {
-  background-image: url(img/south_background1.jpg);
+  background-image: url(img/fruitsaladmint_header.jpg);
 }
 
 .section-south {
-  background-image: url(img/south_background2.jpg);
+  background-image: url(img/fruitbackground.jpg);
 }
 
 
 .bao-card {
   box-shadow: 0em 0em 0.5em 0.1em rgba(56, 56, 56, 0.2);
   padding: 3px;
+}
+.north-text{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15%;
+}
+.north{
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+
+}
+.north-left .north-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 
 
