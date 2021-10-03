@@ -1,3 +1,4 @@
+/* product page */
 #navb{
     height: 8vh;
     display: flex;
@@ -23,4 +24,43 @@
 }
 #navb a:hover{
     color: blue;
+}
+
+/* menu */
+#food .food{
+    position: relative;
+}
+#food .foodlist{
+    display: flex;
+}
+#food .row{
+    width: 100%;
+}
+#food .col{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#food .img{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+#food .info{
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+    width: 200px;
+    height: 0px;
+    transition: .5s ease;
+}
+#food .food:hover .info{
+    height: 40%;
+}
+#food .text{
+    color: black;
+}
+#food .title{
+    font-weight: bold;
+    font-size: 40px;
 }
