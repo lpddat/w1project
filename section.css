@@ -256,27 +256,27 @@ a {
 }
 
 .salad-jumbotron {
-  background-image: url(img/greens3.png);
+  background-image: url(images/greens3.png);
 }
 
 .section-salad {
-  background-image: url(img/picture5.png);
+  background-image: url(images/picture5.png);
 }
 
 .soup-jumbotron {
-  background-image: url(img/soupbackground.jpg);
+  background-image: url(images/soupbackground.jpg);
 }
 
 .section-soup {
-  background-image: url(img/protein.png);
+  background-image: url(images/protein.png);
 }
 
 .fruit-jumbotron {
-  background-image: url(img/fruitsaladmint_header.jpg);
+  background-image: url(images/fruitsaladmint_header.jpg);
 }
 
 .section-fruit {
-  background-image: url(img/fruitbackground.jpg);
+  background-image: url(images/fruitbackground.jpg);
 }
 
 
