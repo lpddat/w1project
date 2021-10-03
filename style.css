@@ -1,4 +1,4 @@
-/* product page */
+/* product page - selection */
 #navb{
     height: 8vh;
     display: flex;
@@ -26,12 +26,16 @@
     color: blue;
 }
 
-/* menu */
-#food .food{
+/* product page - menu */
+#food .foodcontainer{
     position: relative;
 }
 #food .foodlist{
     display: flex;
+    flex-direction: column;
+    height: 900px;
+    border: solid;
+    justify-content: space-evenly;
 }
 #food .row{
     width: 100%;
@@ -39,23 +43,23 @@
 #food .col{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 #food .img{
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 #food .info{
     position: absolute;
     background-color: white;
     overflow: hidden;
-    width: 200px;
+    width: 300px;
     height: 0px;
     transition: .5s ease;
 }
 #food .food:hover .info{
-    height: 40%;
+    height: 8%;
 }
 #food .text{
     color: black;
@@ -63,6 +67,11 @@
 #food .title{
     font-weight: bold;
     font-size: 40px;
+<<<<<<< HEAD
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+=======
 }
 
 body {
@@ -243,3 +252,4 @@ body {
   
   
   
+>>>>>>> 2c184c81eadee91e062f23013d5486837da382b3
