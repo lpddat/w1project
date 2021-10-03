@@ -64,3 +64,182 @@
     font-weight: bold;
     font-size: 40px;
 }
+
+body {
+    margin: 0;
+    font-family: "Balsamiq Sans", cursive;
+  }
+  
+  header {
+    background-color: white;
+    height: 110px;
+  
+  }
+  
+  .container {
+      max-width: 1000px;
+      margin: 20px auto;
+  }
+  
+  
+  .logo {
+     position: relative;
+     bottom: 30px;
+     width: 200px;
+  }
+  
+  .links {
+      float: right;    
+      color: black;
+      font-weight: 600;
+      font-size: 150%;
+      letter-spacing: 5px;
+  
+  }
+  
+  .links * { 
+      position: relative;
+      bottom: 70px;
+      left: -200px;   
+  }
+  
+  a:link {
+      text-decoration: none;
+      
+  }
+  
+  a:hover {
+      color: aquamarine;
+  }
+  
+  .nav2 {
+      position: relative;
+      bottom: 15px;
+      margin-left: 50px;
+      font-weight: 100;
+  }
+  .button {
+      background-color:black;
+      color: white;
+      padding: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      bottom: 35px;
+      left: 8px;
+      font-size: 10px;
+  }
+  
+  .button1 {
+      display: flex;
+      justify-content: center;
+      bottom: 150px;
+      right: 200px;
+      width: 100px;
+  
+  }
+  
+  .button2 {
+      display: flex;
+      justify-content: center;
+      bottom: 130px;
+      right: 200px;
+      width: 100px;
+  }
+  
+  .button3{
+      display: flex;
+      justify-content: center;
+      bottom: 110px;
+      right: 200px;
+      width: 100px;
+  
+  }
+  .button4 {
+      border-radius: 50px;
+  
+  }
+  
+  .button5 {
+      border-radius: 50px;
+  }
+  
+  #section1 {
+      background-color: grey;
+      height: 400px;
+  
+  }
+  
+  #section1 .container{
+      padding: 60px;
+  }
+  
+  
+  h1 {
+      text-align: end;
+      font-size: 40px;
+      color: white
+  }
+  
+  p {
+      text-align: end;
+      font-size: 25px;
+      color: white;
+  
+  }
+  
+  
+  iframe {
+      position: relative;
+      bottom: 230px;
+      margin: 40px;
+      right: 50px;
+      
+  }
+  
+  .frameborder {
+      border-style: thick; 
+      border-color: black;
+      border-radius: 10px;
+      display: flex;
+      justify-content: end;
+      background-color: red;
+      border-radius: 10px;
+  }
+  
+  #section1 .button {
+      position: relative;
+      left: 700px;
+      bottom: 300px;
+      border-radius: 30px;
+      width: 100px;
+      height: 50px;
+      padding: 0px;
+      background-color:red;
+      text-align: center;
+      
+  }
+  
+  button:hover {
+      background-color: turquoise;
+  }
+  
+  footer {
+      background-color: white;
+  }
+  
+  .mediatext {
+      font-size: 20px;
+      font-weight: 50;
+  }
+  
+  .fa {
+      position: relative;
+      left: 40px;
+  }
+  
+  
+  
+  
+  
